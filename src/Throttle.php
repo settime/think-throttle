@@ -8,8 +8,8 @@ use Closure;
 use Psr\SimpleCache\CacheInterface;
 use FlyCms\ThinkThrottle\throttle\CounterFixed;
 use FlyCms\ThinkThrottle\throttle\ThrottleAbstract;
-use support\Request;
-use support\Response;
+use Webman\Http\Request;
+use Webman\Http\Response;
 use function sprintf;
 
 /**
