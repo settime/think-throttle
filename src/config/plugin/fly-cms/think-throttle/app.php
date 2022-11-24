@@ -7,7 +7,6 @@ use Webman\Http\Response;
 
 return [
     'enable' => true,
-
     // 缓存键前缀，防止键值与其他应用冲突
     'prefix' => 'throttle_',
     // 缓存的键，true 表示使用来源ip
