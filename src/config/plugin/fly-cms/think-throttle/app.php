@@ -2,8 +2,8 @@
 
 use FlyCms\ThinkThrottle\Throttle;
 use FlyCms\ThinkThrottle\throttle\CounterFixed;
-use support\Request;
-use support\Response;
+use Webman\Http\Request;
+use Webman\Http\Response;
 
 return [
     'enable' => true,
