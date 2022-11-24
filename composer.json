@@ -1,0 +1,13 @@
+{
+  "name": "fly-cms/think-throttle",
+  "type": "library",
+  "license": "Apache-2.0",
+  "description": "Webman plugin fly-cms/think-throttle",
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "FlyCms\\ThinkThrottle\\": "src"
+    }
+  }
+}
